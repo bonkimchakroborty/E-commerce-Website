@@ -1,0 +1,245 @@
+ .section {
+   background: url(https://img.freepik.com/free-photo/black-friday-sales-sign-neon-light_23-2151833076.jpg?semt=ais_hybrid&w=740&q=80)  ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    padding-bottom: 90PX;
+}
+nav input{
+    width: 400px !important;
+    height: 40px !important;
+} 
+/* .container p {
+    margin-left: 30px;
+} */
+.Featured-Products  {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-left: 60px;
+}
+.Featured-Products p{
+    margin-left: 80px;
+}
+.Featured-Products h6{
+    font-size:15 px;
+}
+.Featured-Products h3{
+    font-size: 25px;
+}
+.all-products{
+    gap: 2px;
+    display: flex;
+}
+.footer-up{
+    display: flex;
+    gap: 80px;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+/* Footer */
+.sections {
+    background: #0A0A0A;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 40px 0 20px;
+   width: 98%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1;
+    min-width: 200px;
+}
+.col.brand {
+    flex: 2;
+    min-width: 260px;
+}
+.col.brand h5 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.col.brand h5 span {
+    color: #3b82f6;
+}
+.desc {
+    color: #9CA3AF;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+.socials {
+    display: flex;
+    gap: 8px;
+}
+.socials a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9CA3AF;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.socials a:hover {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: #fff;
+    transform: translateY(-2px);
+}
+.col h6 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 18px;
+}
+a.link {
+    color: #9CA3AF;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    padding: 3px 0;
+    transition: all 0.2s;
+}
+a.link:hover {
+    color: #fff;
+    padding-left: 4px;
+}
+.info {
+    color: #9CA3AF;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.info i {
+    font-style: normal;
+    margin-top: 2px;
+}
+.info a {
+    color: #9CA3AF;
+    text-decoration: none;
+}
+.info a:hover {
+    color: #fff;
+}
+.hr {
+    height: 1px;
+    background: rgba(255,255,255,0.08);
+    margin: 20px 30px;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 30px;
+}
+.copy {
+    color: #6B7280;
+    font-size: 13px;
+}
+.payments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.badge {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    padding: 5px 12px;
+    color: #9CA3AF;
+    font-size: 12px;
+    font-weight: 500;
+}
+.lovable {
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+.lovable:hover {
+    opacity: 0.9;
+}
+@media (max-width: 768px) {
+    .row { gap: 24px; }
+    .col { min-width: 100%; }
+    .col.brand { min-width: 100%; }
+    .bottom { flex-direction: column; align-items: flex-start; }
+}
+
+/* Boostrap */
+@media (max-width: 768px) {
+   
+.hero {
+    background: url(https://gadgetwarehouse.com.bd/wp-content/uploads/2025/08/Web-cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px; 
+    width: 100%;
+}
+.footer-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}   
+
+.product {
+    display: flex;
+    flex-wrap: wrap; */
+    justify-content: center; 
+    gap: 15px !important; 
+}
+
+
+.product .card {
+    flex: 0 1 calc(50% - 20px);
+    width: auto !important;
+}
+
+
+.nav.container {
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    padding-bottom: 10px;
+}
+.product .card {
+        flex: 0 1 10rem; 
+    }
+    
+    .hero {
+        height: 100vh; 
+    }
+     .section {
+   background: url(https://gadgetwarehouse.com.bd/wp-content/uploads/2025/08/Web-cover.png)  ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    width: 450px;
+    background-position: center;
+    padding-bottom: 90PX;
+}
+}
