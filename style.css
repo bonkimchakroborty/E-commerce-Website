@@ -83,6 +83,12 @@ body {
 .hero h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
+
+/* Hero Buttons (Made Smaller) */
+.hero .btn-group {
+    gap: 15px; /* Increased gap between buttons */
+}
+
 @media (max-width: 768px) {
     .section {
         min-height: auto;
@@ -93,6 +99,7 @@ body {
     }
     .hero .btn-group {
         justify-content: center;
+        gap: 10px;
     }
 }
 
