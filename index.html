@@ -3,434 +3,450 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Boostrap -->
+    <title>GadgetBD - Premium Tech Shop</title>
+    
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    
+    <!-- Google Material Icons -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+
+    <!-- Link to your custom CSS file -->
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
   </head>
-  <body  >
-    <nav class="navbar navbar-expand-lg bg-body-tertiary container mb-1 ">
-      <div class="d-flex justify-content-between w-100 align-items-center">
-        <a class="navbar-brand ms-3 " href="#">GadgetBD</a>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2 p-1-4 " "
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success  type="submit">
-            <span class="material-symbols-outlined"> search </span>
-          </button>
-        </form>
-        <div class="button gap-4 d-flex align-items-center">
-          <span class="material-symbols-outlined"> favorite </span>
-          <span class="material-symbols-outlined"> account_box </span>
-          <span class="material-symbols-outlined me-5 "> shopping_cart </span>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">Gadget<span class="text-primary">BD</span></a>
+        
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <form class="d-flex mx-auto my-2 my-lg-0" role="search">
+            <input class="form-control nav-search-input" type="search" placeholder="Search products..." aria-label="Search" />
+            <button class="btn btn-primary ms-2" type="submit">
+              <span class="material-symbols-outlined">search</span>
+            </button>
+          </form>
+          
+          <div class="d-flex align-items-center nav-icons ms-lg-3">
+            <span class="material-symbols-outlined me-3 position-relative">
+              favorite
+              <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-1">
+                <span class="visually-hidden">New alerts</span>
+              </span>
+            </span>
+            <span class="material-symbols-outlined me-3">account_box</span>
+            <span class="material-symbols-outlined position-relative">
+              shopping_cart
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                2
+              </span>
+            </span>
+          </div>
         </div>
       </div>
     </nav>
-    <ul class="nav  ms-5 ">
-      <li class="nav-item">
-        <a class="nav-link active ms-5 " aria-current="page" href="#">Smartphones</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link  " href="#">Laptops</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Earbuds & Audio </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-disabled="true">Smartwatches</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-disabled="true">Accessories</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-disabled="true">Power Banks</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-disabled="true">Cameras</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" aria-disabled="true">Offers </a>
-      </li>
-    </ul>
-<!-- Hero Section -->
-<div class="section">
-<div class="hero container  ">
-  <button class="rounded text-dark  text-center mt-5 mb-5 ">🔥 New Arrivals</button>
-  <p class="fs-1  text-light fw-bolder mb-5  " >Latest Tech Gadgets <br> at <span class=" text-info" >Best Prices</span></p>
-  <h6 class="fs-5 fw-3 text-light  " >বাংলাদেশের সেরা গ্যাজেট শপ। <br> অরিজিনাল প্রোডাক্ট, সেরা দাম, দ্রুত ডেলিভারি।</h6>
-  <div class="div ">
-  <button type="button" class="btn btn-primary btn-lg  mb-5">Shop Now
-</button>
-<button type="button" class="btn btn-secondary btn-lg mb-5 ">Flash Sale  </button>
-</div>
-</div>
-</div>
 
-<!-- Main Content -->
- <div class="main ms-4 mb-5 container "> 
-  <h2 class="text-center mt-5" >Shop by Category</h2>
-  <div class="product d-flex justify-content-between  mt-4 ms-5 container mb-">
-  <div class="card">
-  <span class="material-symbols-outlined text-center mt-3  ">
-mobile_2
-</span>
-  <div class="card-body  ">
-    <p class="card-text text-center"> Smartphones <br> 250+ items </p>
-  </div>
-</div>
- <div class="card" >
-  <span class="material-symbols-outlined text-center mt-3  ">
-mobile_2
-</span>
-  <div class="card-body">
-    <p class="card-text text-center "> Laptops<br> 120+ items  </p>
-  </div>
-  </div>
-  <div class="card" >
-  <span class="material-symbols-outlined text-center mt-3 ">
-headphones
-</span>
-  <div class="card-body">
-    <p class="card-text text-center "> Audio<br> 180+ items  </p>
-  </div>
-  </div>
-  <div class="card" >
-  <span class="material-symbols-outlined text-center mt-3 ">
-headphones
-</span>
-  <div class="card-body">
-    <p class="card-text text-center ">Smartwatches<br> 90+ items  </p>
-  </div>
-  </div>
-   <div class="card" >
-  <span class="material-symbols-outlined text-center mt-3 ">
-battery_charging_80_2
-</span>
-  <div class="card-body">
-    <p class="card-text text-center ">Power Banks<br> 75+ items  </p>
-  </div>
-  </div>
-     <div class="card" >
-  <span class="material-symbols-outlined text-center mt-3  ">
-photo_camera
-</span>
-  <div class="card-body">
-    <p class="card-text text-center ">Cameras<br>
-60+ items </p>
-  </div>
-  </div>
-    <div class="card">
- <span class="material-symbols-outlined text-center mt-3 ">
-stadia_controller
-</span>
-  <div class="card-body">
-    <p class="card-text text-center ">Gaming<br>
-100+ items</p>
-  </div>
-  </div>
-    <div class="card" >
- <span class="material-symbols-outlined text-center mt-3 ">
-cable
-</span>
-  <div class="card-body">
-    <p class="card-text text-center ">Accessories<br>
-300+ items</p>
-  </div>
-  </div>
-</div>
- </div>
- <!-- Flash Sale -->
+    <!-- Category Nav -->
+    <div class="container">
+      <ul class="nav category-nav justify-content-center justify-content-lg-start">
+        <li class="nav-item"><a class="nav-link active" href="#">Smartphones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Laptops</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Audio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Smartwatches</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Power Banks</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Cameras</a></li>
+        <li class="nav-item"><a class="nav-link text-danger fw-bold" href="#">Offers</a></li>
+      </ul>
+    </div>
 
+    <!-- Hero Section -->
+    <div class="section">
+      <div class="container hero">
+        <button class="btn btn-warning btn-sm fw-bold rounded-pill px-3 mb-3">🔥 New Arrivals</button>
+        <h1 class="text-white fw-bold mb-3">Latest Tech Gadgets <br> at <span class="text-info">Best Prices</span></h1>
+        <p class="text-white fs-5 mb-4">বাংলাদেশের সেরা গ্যাজেট শপ। <br> অরিজিনাল প্রোডাক্ট, সেরা দাম, দ্রুত ডেলিভারি।</p>
+        <div class="d-flex gap-2 btn-group">
+          <button type="button" class="btn btn-primary btn-lg px-4">Shop Now</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Flash Sale</button>
+        </div>
+      </div>
+    </div>
 
- <div class="container">
-  <div class="row  ">
-   <p class="fs-3 fw-bold  container "> <b>Flash Sale</b> </p>
-    <div class="col">
-      <div class="Flash">
-  
-  <div class="card">
-  <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=300&h=300&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h6 class="card-title">Xiaomi Redmi Buds <br> 5</h6>
-    <p class="card-text">৳1,999
-<del>৳3,500</del></p>
-  <div class="progress mt-2 mb-2 " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-success" style="width: 50%">50%</div>
-</div>
-    <a href="#" class="btn btn-primary  ps-5 pe-5 ">Add to Cart</a>
-  
-  </div>
-</div>
-</div>
+    <!-- Shop by Category -->
+    <div class="main container my-5">
+      <h2 class="text-center fw-bold mb-4">Shop by Category</h2>
+      <div class="row g-3">
+        <!-- Item 1 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">smartphone</span>
+            <div class="card-body p-0">
+              <p class="card-text">Smartphones <br><small>250+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">laptop_mac</span>
+            <div class="card-body p-0">
+              <p class="card-text">Laptops <br><small>120+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">headphones</span>
+            <div class="card-body p-0">
+              <p class="card-text">Audio <br><small>180+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">watch</span>
+            <div class="card-body p-0">
+              <p class="card-text">Smartwatches <br><small>90+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">battery_charging_full</span>
+            <div class="card-body p-0">
+              <p class="card-text">Power Banks <br><small>75+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 6 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">photo_camera</span>
+            <div class="card-body p-0">
+              <p class="card-text">Cameras <br><small>60+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 7 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">sports_esports</span>
+            <div class="card-body p-0">
+              <p class="card-text">Gaming <br><small>100+ items</small></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item 8 -->
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card category-card p-3 text-center">
+            <span class="material-symbols-outlined mb-2">cable</span>
+            <div class="card-body p-0">
+              <p class="card-text">Accessories <br><small>300+ items</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <div class="Flash">
-  
-  <div class="card" ">
-  <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=300&h=300&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h6 class="card-title">Baseus 20000mAh  <br> Power Bank</h6>
-    <p class="card-text">৳1,690
-<del>
-৳2,800</del></p>
-<div class="progress mt-2 mb-2 " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-success" style="width: 60%">60%</div>
-</div>
-   <a href="#" class="btn btn-primary  ps-5 pe-5 ">Add to Cart</a>
-  
-  </div>
-</div>
-</div>
-    </div>
-    <div class="col">
-      <div class="Flash">
-  
-  <div class="card" ">
-  <img src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=300&h=300&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h6 class="card-title">Smart Band <br> 8 Pro</h6>
-    <p class="card-text">৳2,999
-<del>
-৳4,500</del></p>
-<div class="progress mt-2 mb-2  " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-success" style="width: 90%">90%</div>
-</div>
-    <a href="#" class="btn btn-primary ps-5 pe-5 ">Add to Cart</a>
-    
-  </div>
-</div>
-</div>
-    </div>
-    <div class="col">
-      <div class="Flash">
-  
-  <div class="card" ">
-  <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=300&h=300&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h6 class="card-title">Lenovo XT90 <br>  TWS</h6>
-    <p class="card-text">৳1,299
-<del>৳2,200</del></p>
-<div class="progress mt-2 mb-2 " role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-  <div class="progress-bar text-bg-success" style="width: 30%">30%</div>
-</div>
-    <a href="#" class="btn btn-primary  ps-5 pe-5 ">Add to Cart</a> 
-    
-  </div>
-</div>
-</div>
-    </div>
-  </div>
- </div>
-  <div class="Featured-Products">
-    <p>Featured Products</p>
-    <div class="all-products  mt-4 mb-1 ">                                        
-    <div class="card ms-5  " >
-  <img height="250px"  src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400&h=400&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Samsung Galaxy S24 Ultra</h5>
-    <h6 class="card-text  ">4.8
-(234)</h6> <br>
-<h3 class="card-text">৳134,999
-<del>
-৳149,999
-</del></h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&h=400&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Apple AirPods Pro 2nd Gen</h5>
-    <h6 class="card-text  ">4.9
-(567)</h6> <br>
-<h3 class="card-text">৳24,999 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">MacBook Air M3 13"</h5>
-    <h6 class="card-text  ">4.7
-(189)</h6> <br>
-<h3 class="card-text">৳129,900 <del>৳139,900</del>
- 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-   
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://media.wired.com/photos/6500a13d9bfe3097d38ae97e/3:2/w_2560%2Cc_limit/Apple-Watch-S9-hero-Gear.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">JBL Charge 5 Speaker</h5>
-    <h6 class="card-text  ">4.6
-(312)</h6> <br>
-<h3 class="card-text">৳12,500</del>
- 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-  </div>
-    <div class="all-products  mt-4 mb-1 ">                                        
-    <div class="card ms-5  " >
-  <img height="250px"  src="https://www.startech.com.bd/image/catalog/watch/apple/watch-series-9/watch-series-9-07.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Samsung Galaxy S24 Ultra</h5>
-    <h6 class="card-text  ">4.8
-(234)</h6> <br>
-<h3 class="card-text">৳134,999
-<del>
-৳149,999
-</del></h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&h=400&fit=crop" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Apple AirPods Pro 2nd Gen</h5>
-    <h6 class="card-text  ">4.9
-(567)</h6> <br>
-<h3 class="card-text">৳24,999 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://www.soundphilereview.com/wp-content/uploads/2022/11/Sony-WH1000XM5-review.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Sony WH-1000XM5</h5>
-    <h6 class="card-text  ">4.9
-(445)</h6> <br>
-<h3 class="card-text">৳28,999
- 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-   
-    <div class="card ms-2 " >
-  <img height="250px"  src="https://shotkit.com/wp-content/uploads/bb-plugin/cache/GoPro-Hero-12-Black-Camera-Review-24-landscape-5fe1ea2f31fef1dd0a7b326b7f5a1739-zybravgx2q47.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">GoPro Hero 12 Black</h5>
-    <h6 class="card-text  ">4.5
-(98)
-</h6> <br>
-<h3 class="card-text">৳42,500</del>
- 
-</h3>
-    <a href="#" class="btn btn-primary">Add to Cart</a>
-  </div>
-</div>
-  </div>
-  </div>
 
-<div class="footer-up    " >
-<div class="druto d-flex gap-4 ms-3  ">
-  <span class="material-symbols-outlined">
-delivery_truck_speed
-</span>
-<div class="dis">
-<h4>দ্রুত ডেলিভারি</h4>
-<p>সারাদেশে ২-৩ দিনে ডেলিভারি</p></div>
-</div> 
-<div class="druto d-flex gap-4 ms-4  ">
-  <span class="material-symbols-outlined">
-shield
-</span>
-<div class="dis">
-<h4>অরিজিনাল প্রোডাক্ট
-</h4>
-<p>
-১০০% অথেনটিক গ্যারান্টি</p></div>
-</div> 
-<div class="druto d-flex gap-4 ms-3  ">
-<span class="material-symbols-outlined">
-cached
-</span>
-<div class="dis">
-<h4>Easy Return</h4>
-<p>৭ দিনের রিটার্ন পলিসি</p></div>
-</div> 
-<div class="druto d-flex gap-4 ms-3  ">
-<span class="material-symbols-outlined">
-headphones
-</span>
-<div class="dis">
-<h4>24/7 Support</h4>
-<p>যেকোনো সময় সাহায্য পান</p></div>
-</div> 
-</div>
-<!-- Footer -->
- <div class="sections  ">
- <div class="footer container ">
-        <div class="row  ">
-            <div class="col brand">
-                <h5>Gadget<span>BD</span></h5>
-                <p class="desc">বাংলাদেশের সেরা অনলাইন গ্যাজেট স্টোর। আমরা আপনাকে সর্বোচ্চ মানের প্রোডাক্ট সবচেয়ে সাশ্রয়ী মূল্যে পৌঁছে দিই।</p>
-                <div class="socials">
-                    <a href="#">f</a>
-                    <a href="#">in</a>
-                    <a href="#">▶</a>
-                    <a href="#">♪</a>
+    <!-- Flash Sale Section -->
+    <div class="bg-light py-5">
+      <div class="container">
+        <h3 class="fw-bold mb-4">⚡ Flash Sale</h3>
+        <div class="row g-4">
+          <!-- Product 1 -->
+          <div class="col-6 col-md-3">
+            <div class="card product-card h-100">
+              <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=300&h=300&fit=crop" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Xiaomi Redmi Buds 5</h6>
+                <p class="card-text mb-2">৳1,999 <span class="old-price">৳3,500</span></p>
+                <div class="progress mb-2" style="height: 6px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 50%"></div>
                 </div>
+                <small class="text-muted mb-3">Sold: 50%</small>
+                <a href="#" class="btn btn-primary btn-sm mt-auto btn-add-cart">Add to Cart</a>
+              </div>
             </div>
-            <div class="col">
-                <h6>Quick Links</h6>
-                <a href="#" class="link">About Us</a>
-                <a href="#" class="link">Contact</a>
-                <a href="#" class="link">Blog</a>
-                <a href="#" class="link">Affiliate Program</a>
-                <a href="#" class="link">Careers</a>
+          </div>
+          <!-- Product 2 -->
+          <div class="col-6 col-md-3">
+            <div class="card product-card h-100">
+              <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=300&h=300&fit=crop" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Baseus 20000mAh</h6>
+                <p class="card-text mb-2">৳1,690 <span class="old-price">৳2,800</span></p>
+                <div class="progress mb-2" style="height: 6px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 60%"></div>
+                </div>
+                <small class="text-muted mb-3">Sold: 60%</small>
+                <a href="#" class="btn btn-primary btn-sm mt-auto btn-add-cart">Add to Cart</a>
+              </div>
             </div>
-            <div class="col">
-                <h6>Customer Service</h6>
-                <a href="#" class="link">FAQ</a>
-                <a href="#" class="link">Shipping Policy</a>
-                <a href="#" class="link">Return Policy</a>
-                <a href="#" class="link">Privacy Policy</a>
-                <a href="#" class="link">Terms & Conditions</a>
+          </div>
+          <!-- Product 3 -->
+          <div class="col-6 col-md-3">
+            <div class="card product-card h-100">
+              <img src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=300&h=300&fit=crop" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Smart Band 8 Pro</h6>
+                <p class="card-text mb-2">৳2,999 <span class="old-price">৳4,500</span></p>
+                <div class="progress mb-2" style="height: 6px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 90%"></div>
+                </div>
+                <small class="text-danger mb-3 fw-bold">Almost Sold Out!</small>
+                <a href="#" class="btn btn-primary btn-sm mt-auto btn-add-cart">Add to Cart</a>
+              </div>
             </div>
-            <div class="col">
-                <h6>Contact Us</h6>
-                <div class="info"><i>📍</i><span>Bashundhara City, Panthapath, Dhaka - 1215</span></div>
-                <div class="info"><i>📞</i><a href="tel:+8801XXXXXXXXX">+880 1XXX - XXXXXX</a></div>
-                <div class="info"><i>✉</i><a href="mailto:support@gadgetbd.com">support@gadgetbd.com</a></div>
-                <div class="info"><i>🕐</i><span>Sat - Thu: 10:00 AM - 9:00 PM</span></div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-6 col-md-3">
+            <div class="card product-card h-100">
+              <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=300&h=300&fit=crop" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column">
+                <h6 class="card-title">Lenovo XT90 TWS</h6>
+                <p class="card-text mb-2">৳1,299 <span class="old-price">৳2,200</span></p>
+                <div class="progress mb-2" style="height: 6px;">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 30%"></div>
+                </div>
+                <small class="text-muted mb-3">Sold: 30%</small>
+                <a href="#" class="btn btn-primary btn-sm mt-auto btn-add-cart">Add to Cart</a>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Products -->
+    <div class="container my-5">
+      <h3 class="fw-bold mb-4">Featured Products</h3>
+      
+      <!-- Row 1 -->
+      <div class="row g-4 mb-5">
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=400&h=400&fit=crop" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Samsung Galaxy S24 Ultra</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐⭐ <span class="text-muted">(234)</span>
+              </div>
+              <h5 class="price mt-auto">৳134,999 <span class="old-price fs-6">৳149,999</span></h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&h=400&fit=crop" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Apple AirPods Pro 2</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐⭐ <span class="text-muted">(567)</span>
+              </div>
+              <h5 class="price mt-auto">৳24,999</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">MacBook Air M3</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐ <span class="text-muted">(189)</span>
+              </div>
+              <h5 class="price mt-auto">৳129,900 <span class="old-price fs-6">৳139,900</span></h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://media.wired.com/photos/6500a13d9bfe3097d38ae97e/3:2/w_2560%2Cc_limit/Apple-Watch-S9-hero-Gear.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">JBL Charge 5</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐ <span class="text-muted">(312)</span>
+              </div>
+              <h5 class="price mt-auto">৳12,500</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://www.startech.com.bd/image/catalog/watch/apple/watch-series-9/watch-series-9-07.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Apple Watch Series 9</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐⭐ <span class="text-muted">(150)</span>
+              </div>
+              <h5 class="price mt-auto">৳45,000</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&h=400&fit=crop" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Apple AirPods Pro 2</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐⭐ <span class="text-muted">(567)</span>
+              </div>
+              <h5 class="price mt-auto">৳24,999</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://www.soundphilereview.com/wp-content/uploads/2022/11/Sony-WH1000XM5-review.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">Sony WH-1000XM5</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐⭐ <span class="text-muted">(445)</span>
+              </div>
+              <h5 class="price mt-auto">৳28,999</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="card product-card h-100">
+            <img src="https://shotkit.com/wp-content/uploads/bb-plugin/cache/GoPro-Hero-12-Black-Camera-Review-24-landscape-5fe1ea2f31fef1dd0a7b326b7f5a1739-zybravgx2q47.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column">
+              <h6 class="card-title">GoPro Hero 12</h6>
+              <div class="rating mb-2">
+                ⭐⭐⭐⭐ <span class="text-muted">(98)</span>
+              </div>
+              <h5 class="price mt-auto">৳42,500</h5>
+              <a href="#" class="btn btn-outline-primary btn-sm btn-add-cart">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Up (Features) -->
+    <div class="footer-up">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-6 col-md-3">
+            <div class="footer-item">
+              <span class="material-symbols-outlined">local_shipping</span>
+              <div>
+                <h4>দ্রুত ডেলিভারি</h4>
+                <p>সারাদেশে ২-৩ দিনে ডেলিভারি</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="footer-item">
+              <span class="material-symbols-outlined">verified_user</span>
+              <div>
+                <h4>অরিজিনাল প্রোডাক্ট</h4>
+                <p>১০০% অথেনটিক গ্যারান্টি</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="footer-item">
+              <span class="material-symbols-outlined">cached</span>
+              <div>
+                <h4>Easy Return</h4>
+                <p>৭ দিনের রিটার্ন পলিসি</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="footer-item">
+              <span class="material-symbols-outlined">support_agent</span>
+              <div>
+                <h4>24/7 Support</h4>
+                <p>যেকোনো সময় সাহায্য পান</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="sections">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 brand">
+            <h5>Gadget<span>BD</span></h5>
+            <p class="desc">বাংলাদেশের সেরা অনলাইন গ্যাজেট স্টোর। আমরা আপনাকে সর্বোচ্চ মানের প্রোডাক্ট সবচেয়ে সাশ্রয়ী মূল্যে পৌঁছে দিই।</p>
+            <div class="socials">
+              <a href="#">f</a>
+              <a href="#">in</a>
+              <a href="#">▶</a>
+              <a href="#">♪</a>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6>Quick Links</h6>
+            <a href="#" class="link">About Us</a>
+            <a href="#" class="link">Contact</a>
+            <a href="#" class="link">Blog</a>
+            <a href="#" class="link">Affiliate Program</a>
+            <a href="#" class="link">Careers</a>
+          </div>
+          <div class="col-6 col-md-3">
+            <h6>Customer Service</h6>
+            <a href="#" class="link">FAQ</a>
+            <a href="#" class="link">Shipping Policy</a>
+            <a href="#" class="link">Return Policy</a>
+            <a href="#" class="link">Privacy Policy</a>
+            <a href="#" class="link">Terms & Conditions</a>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h6>Contact Us</h6>
+            <div class="info"><i>📍</i><span>Bashundhara City, Dhaka</span></div>
+            <div class="info"><i>📞</i><a href="#" class="text-decoration-none text-secondary">+880 1XXX - XXXXXX</a></div>
+            <div class="info"><i>✉</i><a href="#" class="text-decoration-none text-secondary">support@gadgetbd.com</a></div>
+          </div>
         </div>
         <div class="hr"></div>
         <div class="bottom">
-            <span class="copy">© 2025 GadgetBD. All rights reserved.</span>
-            <div class="payments">
-                <span class="badge">bKash</span>
-                <span class="badge">Visa</span>
-                <span class="badge">Mastercard</span>
-                <span class="badge">COD</span>
-            </div>
-           
+          <span class="copy text-secondary">© 2025 GadgetBD. All rights reserved.</span>
+          <div class="payments">
+            <span class="badge text-bg-light text-dark border">bKash</span>
+            <span class="badge text-bg-light text-dark border">Visa</span>
+            <span class="badge text-bg-light text-dark border">Mastercard</span>
+            <span class="badge text-bg-light text-dark border">COD</span>
+          </div>
         </div>
+      </div>
     </div>
- </div>
-   
 
-    <!-- Boostrap -->
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
